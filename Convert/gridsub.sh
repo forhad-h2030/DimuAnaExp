@@ -1,9 +1,9 @@
 #!/bin/bash
 DIR_MACRO=$(dirname $(readlink -f $BASH_SOURCE))
 echo "The script is located in: $DIR_MACRO"
-LIST_VEC=list.txt # File containing the list of input files
+LIST_VEC=list_up.txt # File containing the list of input files
 
-JOB_NAME=pol_kmag_aug16_2025
+JOB_NAME=trk_density_sep_03
 DO_OVERWRITE=no
 USE_GRID=no
 FORCE_PNFS=no
